@@ -10,7 +10,6 @@ def escolhe_jogo():
 
     jogo = int(input("Qual jogo? "))
 
-
     if(jogo == 1):
         print("Jogando forca")
         forca.jogar()
